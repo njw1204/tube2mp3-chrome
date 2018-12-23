@@ -6,3 +6,4 @@
 2. server : MP3 변환 & 전송 프로젝트 (서버)
    * `server/run.sh` 파일로 서버 실행
    * `server/requirements.txt`, `gunicorn`, `ffmpeg` 설치 필수
+   * `chrome-plugin/script.js` 에서 서버 아이피 수정
