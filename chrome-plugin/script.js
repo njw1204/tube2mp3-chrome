@@ -94,7 +94,7 @@ function menuOnClick(info, tab) {
 
         chrome.downloads.download({
           url: 'http://54.180.51.110/mp3/' + video_id,
-          filename: videoInfo.title.replace(/[/\\?<>:*|"]/g, ' ') + '.mp3'
+          filename: videoInfo.title.replace(/[/\\?<>:*|"]/g, ' ').trim() + '.mp3'
         }, function (downloadId) {
           chrome.notifications.clear(notiId, function(wasCleared) {});
         });
