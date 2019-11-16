@@ -7,3 +7,7 @@
    * `server/run.sh` 파일로 서버 실행
    * `server/requirements.txt`, `gunicorn`, `ffmpeg` 설치 필수
    * `chrome-plugin/script.js` 에서 서버 아이피 수정
+
+<br/>
+
+![image](https://user-images.githubusercontent.com/38099251/68989358-daf0a580-0888-11ea-80f4-c0601ea75688.png)
